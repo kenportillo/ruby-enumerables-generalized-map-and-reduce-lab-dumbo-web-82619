@@ -9,6 +9,8 @@ def map(array)
 end 
 
 def reduce(array, sv=nil)
+ i = 0 
+  
   if sv 
     sum = sv 
     i = 0 
